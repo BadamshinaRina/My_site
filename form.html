@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang=ru>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Запись в детский сад "Солнышко" </title>
+		<link rel="stylesheet", href="css/style.css">
+
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				Детский сад <span>"Солнышко"</span>
+			</div>
+				<nav>
+					<a href="index.html">Главная</a>
+					<a href="contacts.html">Контакты</a>
+					<a href="form.html">Запись в садик</a>
+				</nav>
+		</header>
+		<main>
+			<h1>Заявка на поступление</h1>
+			<div class="form-container">
+				<form action="#" method="post">
+					<div class="form-group">
+						<label for="child_name">👶 Имя ребенка *</label>
+						<input type="text" id="child_name" name="child_name" required placeholder="Например:Иванова Анна">
+					</div>
+
+					<div class="form-group">
+						<label for="birth_date">📅  Дата рождения *</label>
+						<input type="date" id="birth_date" name="birth_date" required>
+					</div>
+
+					<div class="form-group">
+						<label for="parent_name">👨‍👩‍👧 Имя родителя *</label>
+						<input type="text" id="parent_name" name="parent_name" required placeholder="Например:Иванова Анна">
+					</div>
+
+					<div class="form-group">
+						<label for="phone">📱 Телефон для связи *</label>
+						<input type="tel" id="phone" name="phone" required placeholder="+7(999)123-45-67">
+					</div>
+
+					<div class="form-group">
+						<label for="Email">✉️ Email *</label>
+						<input type="email" id="Email" name="Email" required placeholder="pochta@example.com">
+					</div>
+
+					<div class="form-group">
+						<label for="group">🏫 Желаемая группа*</label>
+						<select id="group" name="group">
+							<option value="nursery">Ясельная (1,5-3 года)</option>
+							<option value="midle">Младшая (3-4 года)</option>
+							<option value="senior">Средняя (4-5 лет)</option>
+							<option value="prep">Старшая (5-6 лет)</option>
+							<option value="school">Подготовительная (6-7 лет)</option>
+						</select>
+					</div>
+
+					<div class="form-group">
+						<label for="start_date">📆 Желаемая дата посещения *</label>
+						<input type="date" id="start_date" name="start_date" required>
+					</div>
+
+					<div class="form-group">
+						<label for="coment">💬 Дополнительная информация *</label>
+						<textarea id="coment" name="coment" rows="4" placeholder="Особенности ребенка, аллергии, пожелания..."></textarea>
+					</div>
+
+					<div class="form-group">
+						<label>
+						<input type="checkbox" name="afree" required>
+						Я согласен(а) на обработку персональных данных*
+						</label>
+					</div>
+
+					<button type="submit" class="btn">
+						📨 Отправить заявку
+					</button>
+				</form>
+			</div>
+
+			<p style="text-align-last: center; margin-top: 20px; color: #666;">
+				* - поля обязательные для заполнения
+			</p>
+
+			<p style="text-align-last: center;">
+				<a href="contacts.html">📞 Есть вопросы? Звоните нам!</a>
+			</p>
+			
+		</main>
+
+		<footer>
+			<p>☀️ Детский сад "Солнышко" </p>
+			<p>Сделаем детство счастливым</p>
+			<p>&copy 2026 Все права защищены</p>
+		</footer>
+	</body>
+	
+</html>
